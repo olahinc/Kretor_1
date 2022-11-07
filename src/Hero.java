@@ -47,5 +47,9 @@ public class Hero {
         this.newcharacter = newcharacter;
         return newcharacter;
     }
+    public int convert(int powerpoints, int manapoints){
+        int impactForce=(powerpoints*manapoints)/2;
+        return impactForce;
+    }
 
 }
